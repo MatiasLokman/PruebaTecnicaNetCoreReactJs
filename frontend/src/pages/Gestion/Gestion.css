@@ -1,0 +1,51 @@
+.secciones {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 25px;
+  margin-top: 25px;
+}
+
+.gestion-btn {
+  align-items: center;
+  background-color: rgb(198, 47, 48);
+  border: none;
+  border-radius: 25px;
+  display: flex;
+  flex-direction: column;
+  height: 150px;
+  justify-content: center;
+  transition: all .6s;
+  width: 200px;
+}
+
+.gestion-btn:hover {
+  background-color: #ffffff;
+  box-shadow: 0px 0px 16px rgb(198, 47, 48);
+}
+
+.gestion-btn:hover .gestion-title {
+  color: rgb(198, 47, 48);
+}
+
+.gestion-btn:hover .gestion-svg {
+  fill: rgb(198, 47, 48);
+}
+
+.gestion-title {
+  color: #fff;
+  font-size: 20px;
+  font-weight: 600;
+  margin: 10px 0 0;
+  text-align: center;
+  transition: all 0.6s;
+}
+
+.gestion-svg {
+  fill: #eee;
+  height: 70px;
+  width: 70px;
+  transition: all 0.6s;
+}
