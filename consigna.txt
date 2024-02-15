@@ -1,0 +1,29 @@
+Crear una web de gestion de cuentas de clientes.
+
+* Listar, crear, editar y eliminar clientes
+* Listar y registrar movimientos en la cuenta
+
+Cliente
+    * Nombre
+    * Apellido
+    * Identificacion (debe ser unico)
+    * Saldo
+    * estado (activo / dado de baja)
+
+Cuenta corriente
+    * fh movimiento
+    * importe (debito negativo, credito positivo)
+    * descripcion
+
+Condiciones
+    * El eliminado es un eliminado logico (dar de baja)
+    * El cliente puede darse de baja si el saldo es cero.
+    * Es relevante la integridad y coherencia de saldo e importes
+    * Todos los campos son requeridos
+    
+
+* Proyecto web en C# .NET Framework +4.6 o .NET Core +6.X con visual studio
+* Los datos deben almacenarse en una base de datos
+
+* Se considerara cuestiones como usabilidad, diseño, calidad, arquitectura, etc.
+* Al compartir el proyecto incluir todo lo necesario para poder ejecutarlo y validarlo
